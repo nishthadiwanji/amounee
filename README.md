@@ -8,15 +8,6 @@ Date: Nov 10, 2020
 |  -----  |    -----    |
 |  1.0.0  |  Basic Sentinel Setup, HashID, Activity Log, Export to Excel, Some Basic Needed Modules (Team Members)|
 
-## Team Members
-
-1. M. Imran Memon
-2. Murtuza Sugarwala
-3. Deep Dave
-4. Lora Sahoo
-5. Ira Shah
-6. Ankit Gupta
-
 ## The Repository
 The repository includes basic setup of metronic theme with authentication, analysis reports, basic visitor management and invitation to guests functionality.
 
