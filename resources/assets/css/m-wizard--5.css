@@ -1,0 +1,210 @@
+.m-wizard.m-wizard--5 .m-wizard__head {
+    margin: 0px
+}
+.m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps {
+    width: 100%;
+    display: table;
+    table-layout: fixed
+}
+.m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step {
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 1rem
+}
+.m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step .m-wizard__step-info {
+    padding-left: 2rem
+}
+.m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step .m-wizard__step-info .m-wizard__step-number {
+    text-decoration: none;
+    display: table;
+    margin: 0 auto
+}
+.m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step .m-wizard__step-info .m-wizard__step-number .m-wizard__step-seq {
+    display: table-cell;
+    font-weight: 500;
+    padding-right: .5rem;
+    padding-top: .2rem;
+    vertical-align: middle
+}
+.m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step .m-wizard__step-info .m-wizard__step-number .m-wizard__step-label {
+    font-weight: 500;
+    padding-right: .5rem;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.2rem
+}
+.m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step .m-wizard__step-info .m-wizard__step-number .m-wizard__step-icon {
+    display: table-cell;
+    vertical-align: middle
+}
+.m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps:last-child {
+    padding-right: 0
+}
+.m-wizard.m-wizard--5.m-wizard--nav-centered .m-wizard__head {
+    margin: 3rem auto;
+    width: 80%
+}
+@media (max-width:1200px) {
+    .m-wizard.m-wizard--5 .m-wizard__head {
+        position: relative;
+        width: 100%!important
+    }
+    .m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav {
+        border-bottom: 0
+    }
+    .m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps {
+        width: auto;
+        margin: 1.5rem auto 0 auto
+    }
+    .m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step {
+        padding: 0 0 .5rem 0;
+        display: block;
+        margin: 1rem 0 2rem 0;
+        width: 100%
+    }
+    .m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step:last-child {
+        margin-bottom: 0
+    }
+    .m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step .m-wizard__step-info {
+        padding-left: 0
+    }
+    .m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step .m-wizard__step-info .m-wizard__step-number {
+        margin: 0
+    }
+    .m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step .m-wizard__step-info .m-wizard__step-number .m-wizard__step-seq {
+        padding-right: .5rem
+    }
+    .m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step .m-wizard__step-info .m-wizard__step-number .m-wizard__step-label {
+        padding-right: .5rem;
+        width: 100%
+    }
+    .m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step .m-wizard__step-info .m-wizard__step-number .m-wizard__step-icon {
+        text-align: right;
+        display: block
+    }
+}
+.m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav {
+    border-bottom: 1px solid #ebedf2;
+}
+.m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step {
+    border-bottom: 2px solid transparent
+}
+.m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step .m-wizard__step-info .m-wizard__step-label {
+    color: #9699a2
+}
+.m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step .m-wizard__step-info .m-wizard__step-number .m-wizard__step-seq {
+    color: #9699a2
+}
+.m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step .m-wizard__step-info .m-wizard__step-number .m-wizard__step-icon {
+    color: #fff
+}
+.m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step.m-wizard__step--done .m-wizard__step-info .m-wizard__step-number .m-wizard__step-icon {
+    color: #9699a2
+}
+.m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-seq {
+    color: #0f0f11
+}
+.m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-label {
+    color: #0f0f11
+}
+.m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-icon {
+    color: #fff
+}
+@media (max-width:1200px) {
+    .m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav {
+        border-bottom: 0
+    }
+    .m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step {
+        border-bottom: 2px solid transparent
+    }
+}
+.m-wizard.m-wizard--5.m-wizard--brand .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current {
+    border-bottom: 2px solid #223965
+}
+.m-wizard.m-wizard--5.m-wizard--brand .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-seq {
+    color: #223965
+}
+.m-wizard.m-wizard--5.m-wizard--brand .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-label {
+    color: #223965
+}
+.m-wizard.m-wizard--5.m-wizard--metal .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current {
+    border-bottom: 2px solid #c4c5d6
+}
+.m-wizard.m-wizard--5.m-wizard--metal .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-seq {
+    color: #c4c5d6
+}
+.m-wizard.m-wizard--5.m-wizard--metal .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-label {
+    color: #c4c5d6
+}
+.m-wizard.m-wizard--5.m-wizard--light .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current {
+    border-bottom: 2px solid #fff
+}
+.m-wizard.m-wizard--5.m-wizard--light .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-seq {
+    color: #fff
+}
+.m-wizard.m-wizard--5.m-wizard--light .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-label {
+    color: #fff
+}
+.m-wizard.m-wizard--5.m-wizard--accent .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current {
+    border-bottom: 2px solid #00c5dc
+}
+.m-wizard.m-wizard--5.m-wizard--accent .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-seq {
+    color: #00c5dc
+}
+.m-wizard.m-wizard--5.m-wizard--accent .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-label {
+    color: #00c5dc
+}
+.m-wizard.m-wizard--5.m-wizard--focus .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current {
+    border-bottom: 2px solid #9816f4
+}
+.m-wizard.m-wizard--5.m-wizard--focus .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-seq {
+    color: #9816f4
+}
+.m-wizard.m-wizard--5.m-wizard--focus .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-label {
+    color: #9816f4
+}
+.m-wizard.m-wizard--5.m-wizard--primary .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current {
+    border-bottom: 2px solid #5867dd
+}
+.m-wizard.m-wizard--5.m-wizard--primary .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-seq {
+    color: #5867dd
+}
+.m-wizard.m-wizard--5.m-wizard--primary .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-label {
+    color: #5867dd
+}
+.m-wizard.m-wizard--5.m-wizard--success .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current {
+    border-bottom: 2px solid #34bfa3
+}
+.m-wizard.m-wizard--5.m-wizard--success .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-seq {
+    color: #34bfa3
+}
+.m-wizard.m-wizard--5.m-wizard--success .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-label {
+    color: #34bfa3
+}
+.m-wizard.m-wizard--5.m-wizard--info .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current {
+    border-bottom: 2px solid #36a3f7
+}
+.m-wizard.m-wizard--5.m-wizard--info .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-seq {
+    color: #36a3f7
+}
+.m-wizard.m-wizard--5.m-wizard--info .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-label {
+    color: #36a3f7
+}
+.m-wizard.m-wizard--5.m-wizard--warning .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current {
+    border-bottom: 2px solid #ffb822
+}
+.m-wizard.m-wizard--5.m-wizard--warning .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-seq {
+    color: #ffb822
+}
+.m-wizard.m-wizard--5.m-wizard--warning .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-label {
+    color: #ffb822
+}
+.m-wizard.m-wizard--5.m-wizard--danger .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current {
+    border-bottom: 2px solid #f4516c
+}
+.m-wizard.m-wizard--5.m-wizard--danger .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-seq {
+    color: #f4516c
+}
+.m-wizard.m-wizard--5.m-wizard--danger .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-label {
+    color: #f4516c
+}

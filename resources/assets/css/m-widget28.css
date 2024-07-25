@@ -1,0 +1,81 @@
+.m-widget28 .m-widget28__pic {
+    position: relative;
+    min-height: 286px
+}
+.m-widget28 .m-widget28__container {
+    width: 100%
+}
+.m-widget28 .m-widget28__container .m-widget28__nav-items {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 1.2rem;
+    margin-top: -8rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 1rem
+}
+.m-widget28 .m-widget28__container .m-widget28__nav-items .m-widget28__nav-item {
+    display: table-cell
+}
+.m-widget28 .m-widget28__container .m-widget28__nav-items .m-widget28__nav-item > a {
+    text-align: center;
+    padding: 1rem 0 1rem 0
+}
+.m-widget28 .m-widget28__container .m-widget28__nav-items .m-widget28__nav-item > a > span {
+    display: block
+}
+.m-widget28 .m-widget28__container .m-widget28__nav-items .m-widget28__nav-item > a > span > i {
+    font-size: 2.2rem;
+    margin-right: 0;
+    padding-bottom: 1rem;
+    padding-top: .4rem
+}
+.m-widget28 .m-widget28__container .m-widget28__nav-items .m-widget28__nav-item > a > span:last-child {
+    font-size: .8rem
+}
+.m-widget28 .m-widget28__container .m-widget28__tab {
+    margin-top: 2rem
+}
+.m-widget28 .m-widget28__container .m-widget28__tab .m-widget28__tab-container .m-widget28__tab-items .m-widget28__tab-item {
+    margin-top: 1.2rem
+}
+.m-widget28 .m-widget28__container .m-widget28__tab .m-widget28__tab-container .m-widget28__tab-items .m-widget28__tab-item > span {
+    display: block
+}
+.m-widget28 .m-widget28__container .m-widget28__tab .m-widget28__tab-container .m-widget28__tab-items .m-widget28__tab-item > span:first-child {
+    font-size: .85rem;
+    font-weight: 500
+}
+.m-widget28 .m-widget28__container .m-widget28__tab .m-widget28__tab-container .m-widget28__tab-items .m-widget28__tab-item > span:last-child {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem
+}
+.m-widget28 .m-widget28__container .m-widget28__tab .m-widget28__tab-container .m-widget28__tab-items .m-widget28__tab-item:first-child {
+    margin-top: 0
+}
+.m-widget28 .m-widget28__container .m-widget28__nav-items .m-widget28__nav-item > a {
+    color: #a4a6ae;
+    border: 1px solid #9ea7c0;
+    color: #fff
+}
+.m-widget28 .m-widget28__container .m-widget28__nav-items .m-widget28__nav-item > a.active {
+    background-color: #456adc
+}
+.m-widget28 .m-widget28__container .m-widget28__tab .m-widget28__tab-container .m-widget28__tab-items .m-widget28__tab-item {
+    border-bottom: 1px solid #ebedf2
+}
+.m-widget28 .m-widget28__container .m-widget28__tab .m-widget28__tab-container .m-widget28__tab-items .m-widget28__tab-item > span:first-child {
+    color: #a4a6ae
+}
+.m-widget28 .m-widget28__container .m-widget28__tab .m-widget28__tab-container .m-widget28__tab-items .m-widget28__tab-item > span:last-child {
+    color: #7b7e8a
+}
+.m-widget28 .m-widget28__container .m-widget28__tab .m-widget28__tab-container .m-widget28__tab-items .m-widget28__tab-item:last-child {
+    border-bottom: none
+}
+.m-widget28 .m-widget28__pic {
+    background-color: #5075e4
+}
